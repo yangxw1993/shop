@@ -1,0 +1,44 @@
+.swiper {
+  position: relative;
+  width: 750px;
+  height: 480px;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  width: 3000px;
+}
+
+.swiper-wrapper .swiper-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.swiper-wrapper .swiper-item.show {
+  opacity: 1;
+}
+
+.swiper .dots {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.swiper .dots-item {
+  float: left;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.swiper .dots-item.active {
+  background: #000;
+}
