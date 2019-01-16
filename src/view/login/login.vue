@@ -1,7 +1,10 @@
 <template>
  <div>
+    <my-header></my-header>
     <div></div>
     <h1>{{title}}</h1>
+
+    <my-footer></my-footer>
  </div>
 </template>
 <script>

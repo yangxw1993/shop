@@ -18,7 +18,7 @@ import MyFooter from '@/components/footer/Footer.vue'
 import MySwiper from '@/components/swiper/Swiper.vue'
 export default {
   name: "app",
-  components: { MyHeader, MyFooter, MySwiper },
+  components: { MySwiper },
   data() {
     return {
       title: "首页",
