@@ -1,0 +1,31 @@
+$boder-color: #f894b6;
+$bg-color: #f34133;
+.pig{
+  margin: 20px auto;
+  padding: 40px;
+  width: 500px;
+  height: 800px;
+  background:#fdd0e7;
+  &-body{
+    position: relative;
+    width:230px;
+    height:0;
+    border-width:0 37px 100px 37px;
+    border-style:none solid solid;
+    border-color:transparent transparent $bg-color;
+    border-radius: 20px;
+    z-index: 999;
+    &::before{
+      content: '';
+      /* display: block;
+      position: absolute;
+      left: -26px;
+      top: -8px;
+      width:230px;
+      height:0;
+      border-width:0 37px 100px 37px;
+      border-style:none solid solid;
+      border-color:transparent transparent red; */
+    }
+  }
+}

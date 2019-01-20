@@ -7,14 +7,13 @@
         <Button type="primary">Primary</Button>
         <a href="./login.html">登录</a>
       </div>
+      <h2><a href="./peki.html">佩琪</a></h2>
       <my-swiper :sliders="sliders"></my-swiper>
     </div>
     <my-footer></my-footer>
   </div>
 </template>
 <script>
-import MyHeader from '@/components/header/Header.vue'
-import MyFooter from '@/components/footer/Footer.vue'
 import MySwiper from '@/components/swiper/Swiper.vue'
 export default {
   name: "app",
